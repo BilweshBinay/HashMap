@@ -6,7 +6,7 @@ This repository contains two practical examples of how to use **Java HashMap** w
 
 ---
 
-## 📌 What is HashMap?
+##  What is HashMap?
 
 A `HashMap` is a part of Java's `java.util` package.  
 It stores **key-value pairs**, where:
@@ -15,22 +15,10 @@ It stores **key-value pairs**, where:
 - It allows **null keys and values**
 - It does **not maintain order** of insertion
 
-### 🔑 Features:
+###  Features:
 - Fast lookup with `get(key)`
 - Useful for storing mappings (like ID → Data)
 - Internally uses a **hashing algorithm**
 - Not thread-safe (use `ConcurrentHashMap` for that)
 
 ---
-
-## 📁 Project Structure
-
-```bash
-HashMapProjects/
-│
-├── BuiltInMap/
-│   └── BuiltInHashMapExample.java
-│
-├── CustomMap/
-│   ├── BankAccountDto.java
-│   └── CustomValueHashMapExample.java
